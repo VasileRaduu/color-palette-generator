@@ -3,7 +3,7 @@
 
 
 * {
-	margin: 1;
+	margin: 1px;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
@@ -38,7 +38,7 @@ h1 {
 h1::after {
 	content: "";
 	position: absolute;
-	bottom: 9;
+	bottom: 9px;
 	left: 50%;
 	transform: translateX(-50%);
 	width: 50%;
@@ -116,6 +116,6 @@ h1::after {
 
 @media(max-width:768px) {
 	.palette-container{
-		grid-template-columns: repeat(auto-fit,midmax(100px, 1fr));
+		grid-template-columns: repeat(auto-fit, midmax(100px, 1fr));
 	}
 }
